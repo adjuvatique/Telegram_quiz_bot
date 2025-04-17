@@ -1,0 +1,113 @@
+[
+    {
+      "question": "Какой инструмент чаще всего используют для автоматизации UI‑тестов в браузере?",
+      "options": [
+        "Selenium WebDriver",
+        "Postman",
+        "JMeter",
+        "pytest"
+      ],
+      "answer": "Selenium WebDriver",
+      "difficulty": "Легкий"
+    },
+    {
+      "question": "Какой фреймворк в Python обычно используется для написания unit‑тестов?",
+      "options": [
+        "pytest",
+        "Cypress",
+        "Appium",
+        "Locust"
+      ],
+      "answer": "pytest",
+      "difficulty": "Легкий"
+    },
+    {
+      "question": "Какой инструмент часто применяют для нагрузочного тестирования HTTP‑сервисов?",
+      "options": [
+        "JMeter",
+        "Selenium",
+        "SoapUI",
+        "Playwright"
+      ],
+      "answer": "JMeter",
+      "difficulty": "Легкий"
+    },
+    {
+      "question": "Для чего используют Postman/Newman?",
+      "options": [
+        "Автоматизация и запуск коллекций API‑запросов",
+        "UI‑тестирование мобильных приложений",
+        "Нагрузочное тестирование WebSocket‑сервисов",
+        "Генерация тестовых данных"
+      ],
+      "answer": "Автоматизация и запуск коллекций API‑запросов",
+      "difficulty": "Средний"
+    },
+    {
+      "question": "Какой инструмент подходит для мониторинга производительности в реальном времени?",
+      "options": [
+        "Grafana",
+        "Appium",
+        "Cucumber",
+        "Allure"
+      ],
+      "answer": "Grafana",
+      "difficulty": "Средний"
+    },
+    {
+      "question": "Какой CI‑сервер часто используют для автозапуска тестов после каждого пуша?",
+      "options": [
+        "Jenkins",
+        "SoapUI",
+        "Locust",
+        "Playwright"
+      ],
+      "answer": "Jenkins",
+      "difficulty": "Средний"
+    },
+    {
+      "question": "Какая система отчётности позволяет красиво визуализировать результаты тестов pytest?",
+      "options": [
+        "Allure",
+        "Newman",
+        "JUnit",
+        "Zap"
+      ],
+      "answer": "Allure",
+      "difficulty": "Средний"
+    },
+    {
+      "question": "Какой инструмент подходит для распределённого нагрузочного тестирования на Python?",
+      "options": [
+        "Locust",
+        "Cypress",
+        "Selenium Grid",
+        "Postman"
+      ],
+      "answer": "Locust",
+      "difficulty": "Сложный"
+    },
+    {
+      "question": "Какой инструмент используют для параллельного запуска браузерных тестов в облаке?",
+      "options": [
+        "Selenium Grid",
+        "JMeter",
+        "Flake8",
+        "pytest-mock"
+      ],
+      "answer": "Selenium Grid",
+      "difficulty": "Сложный"
+    },
+    {
+      "question": "Какой фреймворк позволяет писать end‑to‑end тесты на JavaScript по API и UI одновременно?",
+      "options": [
+        "Cypress",
+        "JUnit",
+        "TestNG",
+        "Robot Framework"
+      ],
+      "answer": "Cypress",
+      "difficulty": "Сложный"
+    }
+  ]
+  
