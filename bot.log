@@ -1,0 +1,199 @@
+2025-04-18 21:52:06,286 - INFO - GS_SHEET_ID loaded: 16NFOXf7EJj0mvrUIWkcJXKFEZLuY9dwsOV5XpibvOFo
+2025-04-18 21:52:06,286 - INFO - Attempting to load questions from Google Sheets with ID: 16NFOXf7EJj0mvrUIWkcJXKFEZLuY9dwsOV5XpibvOFo
+2025-04-18 21:52:08,523 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getMe "HTTP/1.1 200 OK"
+2025-04-18 21:52:08,547 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/deleteWebhook "HTTP/1.1 200 OK"
+2025-04-18 21:52:08,548 - INFO - Scheduler started
+2025-04-18 21:52:08,548 - INFO - Application started
+2025-04-18 21:52:18,066 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:52:18,194 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/sendMessage "HTTP/1.1 200 OK"
+2025-04-18 21:52:20,673 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:52:20,674 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\Telegramm_Quiz_bot\venv\Lib\site-packages\telegram\ext\_application.py", line 1298, in process_update
+    await coroutine
+  File "C:\Users\Admin\Desktop\Telegramm_Quiz_bot\venv\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\Telegramm_Quiz_bot\bot.py", line 110, in show_rating
+    top = sorted(rating.items(), key=lambda x: x[1]['score'], reverse=True)[:10]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\Telegramm_Quiz_bot\bot.py", line 110, in <lambda>
+    top = sorted(rating.items(), key=lambda x: x[1]['score'], reverse=True)[:10]
+                                               ~~~~^^^^^^^^^
+TypeError: 'int' object is not subscriptable
+2025-04-18 21:52:24,436 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:52:24,527 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/sendMessage "HTTP/1.1 200 OK"
+2025-04-18 21:52:25,871 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:52:25,918 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/sendMessage "HTTP/1.1 200 OK"
+2025-04-18 21:52:25,920 - INFO - Added job "time_up" to job store "default"
+2025-04-18 21:52:25,975 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/sendMessage "HTTP/1.1 200 OK"
+2025-04-18 21:52:29,313 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:52:29,314 - INFO - Removed job d40ac6e650dd47628bb0c218b1e8b63c
+2025-04-18 21:52:29,403 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/sendMessage "HTTP/1.1 200 OK"
+2025-04-18 21:52:29,404 - INFO - Added job "time_up" to job store "default"
+2025-04-18 21:52:29,467 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/sendMessage "HTTP/1.1 200 OK"
+2025-04-18 21:52:30,338 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:52:30,339 - INFO - Removed job ba7b7d2d59ac4b548e76efeb3832996a
+2025-04-18 21:52:30,380 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/sendMessage "HTTP/1.1 200 OK"
+2025-04-18 21:52:30,381 - INFO - Added job "time_up" to job store "default"
+2025-04-18 21:52:30,427 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/sendMessage "HTTP/1.1 200 OK"
+2025-04-18 21:52:31,094 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:52:31,095 - INFO - Removed job cf0228fb3dda473285bbaed170355c1f
+2025-04-18 21:52:31,165 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/sendMessage "HTTP/1.1 200 OK"
+2025-04-18 21:52:31,166 - INFO - Added job "time_up" to job store "default"
+2025-04-18 21:52:31,235 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/sendMessage "HTTP/1.1 200 OK"
+2025-04-18 21:52:32,523 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:52:32,524 - INFO - Removed job 1548e2dafca2431db1c5e774188b6399
+2025-04-18 21:52:32,595 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/sendMessage "HTTP/1.1 200 OK"
+2025-04-18 21:52:32,596 - INFO - Added job "time_up" to job store "default"
+2025-04-18 21:52:32,644 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/sendMessage "HTTP/1.1 200 OK"
+2025-04-18 21:52:33,380 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:52:33,380 - INFO - Removed job e4b4b2d8a3bf471382391bdf659062e6
+2025-04-18 21:52:33,429 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/sendMessage "HTTP/1.1 200 OK"
+2025-04-18 21:52:33,429 - INFO - Added job "time_up" to job store "default"
+2025-04-18 21:52:33,487 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/sendMessage "HTTP/1.1 200 OK"
+2025-04-18 21:52:34,483 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:52:34,484 - INFO - Removed job c668521570bc4ed3a2ce32e202aa753e
+2025-04-18 21:52:34,544 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/sendMessage "HTTP/1.1 200 OK"
+2025-04-18 21:52:34,545 - INFO - Added job "time_up" to job store "default"
+2025-04-18 21:52:34,602 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/sendMessage "HTTP/1.1 200 OK"
+2025-04-18 21:52:35,753 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:52:35,754 - INFO - Removed job 278227565ba04b71957faf59f0af38f9
+2025-04-18 21:52:35,848 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/sendMessage "HTTP/1.1 200 OK"
+2025-04-18 21:52:35,849 - INFO - Added job "time_up" to job store "default"
+2025-04-18 21:52:35,990 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/sendMessage "HTTP/1.1 200 OK"
+2025-04-18 21:52:37,159 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:52:37,160 - INFO - Removed job 6f4a7afe3d3d4e9d8752c75966205e61
+2025-04-18 21:52:37,202 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/sendMessage "HTTP/1.1 200 OK"
+2025-04-18 21:52:37,202 - INFO - Added job "time_up" to job store "default"
+2025-04-18 21:52:37,256 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/sendMessage "HTTP/1.1 200 OK"
+2025-04-18 21:52:37,799 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:52:37,801 - INFO - Removed job cb6a4f1091cb47b5b60021403306e349
+2025-04-18 21:52:37,876 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/sendMessage "HTTP/1.1 200 OK"
+2025-04-18 21:52:37,877 - INFO - Added job "time_up" to job store "default"
+2025-04-18 21:52:37,959 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/sendMessage "HTTP/1.1 200 OK"
+2025-04-18 21:52:39,704 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:52:39,705 - INFO - Removed job 0d91d0b9b5d24d3ab3c7b90283317b31
+2025-04-18 21:52:39,757 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/sendMessage "HTTP/1.1 200 OK"
+2025-04-18 21:52:39,757 - INFO - Added job "time_up" to job store "default"
+2025-04-18 21:52:39,803 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/sendMessage "HTTP/1.1 200 OK"
+2025-04-18 21:52:40,542 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:52:40,543 - INFO - Removed job 30fca44a8fa64ed793c3814cacbe537a
+2025-04-18 21:52:40,592 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/sendMessage "HTTP/1.1 200 OK"
+2025-04-18 21:52:40,592 - INFO - Added job "time_up" to job store "default"
+2025-04-18 21:52:40,657 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/sendMessage "HTTP/1.1 200 OK"
+2025-04-18 21:52:42,010 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:52:42,011 - INFO - Removed job 77e7e1af81ad47348b408ddbd97af16a
+2025-04-18 21:52:42,059 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/sendMessage "HTTP/1.1 200 OK"
+2025-04-18 21:52:42,059 - INFO - Added job "time_up" to job store "default"
+2025-04-18 21:52:42,107 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/sendMessage "HTTP/1.1 200 OK"
+2025-04-18 21:52:43,389 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:52:43,390 - INFO - Removed job 74f5b80c9e894c5d8915cdda54a4e611
+2025-04-18 21:52:43,462 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/sendMessage "HTTP/1.1 200 OK"
+2025-04-18 21:52:43,463 - INFO - Added job "time_up" to job store "default"
+2025-04-18 21:52:43,506 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/sendMessage "HTTP/1.1 200 OK"
+2025-04-18 21:52:44,119 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:52:44,120 - INFO - Removed job e10eb7b66ae045668a6af86e2c1a0ba2
+2025-04-18 21:52:44,168 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/sendMessage "HTTP/1.1 200 OK"
+2025-04-18 21:52:44,169 - INFO - Added job "time_up" to job store "default"
+2025-04-18 21:52:44,211 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/sendMessage "HTTP/1.1 200 OK"
+2025-04-18 21:52:45,312 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:52:45,313 - INFO - Removed job 8da5a822a0154d2cb87f3e300a4ff151
+2025-04-18 21:52:45,358 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/sendMessage "HTTP/1.1 200 OK"
+2025-04-18 21:52:45,359 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\Telegramm_Quiz_bot\venv\Lib\site-packages\telegram\ext\_application.py", line 1298, in process_update
+    await coroutine
+  File "C:\Users\Admin\Desktop\Telegramm_Quiz_bot\venv\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\Telegramm_Quiz_bot\bot.py", line 224, in on_text
+    return await handle_answer(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\Telegramm_Quiz_bot\bot.py", line 204, in handle_answer
+    await send_question_by_chat(chat_id, context)
+  File "C:\Users\Admin\Desktop\Telegramm_Quiz_bot\bot.py", line 174, in send_question_by_chat
+    top = sorted(rating.items(), key=lambda x: x[1]['score'], reverse=True)[:5]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\Telegramm_Quiz_bot\bot.py", line 174, in <lambda>
+    top = sorted(rating.items(), key=lambda x: x[1]['score'], reverse=True)[:5]
+                                               ~~~~^^^^^^^^^
+TypeError: 'int' object is not subscriptable
+2025-04-18 21:52:55,339 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:53:05,362 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:53:15,385 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:53:25,409 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:53:35,431 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:53:45,465 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:53:55,489 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:54:05,514 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:54:15,536 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:54:25,609 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:54:35,632 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:54:45,656 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:54:49,448 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:54:49,618 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/sendMessage "HTTP/1.1 200 OK"
+2025-04-18 21:54:50,862 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:54:50,943 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/sendMessage "HTTP/1.1 200 OK"
+2025-04-18 21:54:52,395 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:54:52,396 - INFO - Added job "time_up" to job store "default"
+2025-04-18 21:54:52,480 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/sendMessage "HTTP/1.1 200 OK"
+2025-04-18 21:54:56,002 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:54:56,003 - INFO - Removed job ff6d03ba244746c2b5bfc7b0fc700cdc
+2025-04-18 21:54:56,179 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/sendMessage "HTTP/1.1 200 OK"
+2025-04-18 21:54:56,180 - INFO - Added job "time_up" to job store "default"
+2025-04-18 21:54:56,343 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/sendMessage "HTTP/1.1 200 OK"
+2025-04-18 21:54:57,655 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:54:57,656 - INFO - Removed job dfb3620b91044ad5ad9b83417a221115
+2025-04-18 21:54:57,705 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/sendMessage "HTTP/1.1 200 OK"
+2025-04-18 21:54:57,706 - INFO - Added job "time_up" to job store "default"
+2025-04-18 21:54:57,765 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/sendMessage "HTTP/1.1 200 OK"
+2025-04-18 21:54:59,298 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:54:59,299 - INFO - Removed job ebcdaa42180b4ce682c7456a298fdcf7
+2025-04-18 21:54:59,382 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/sendMessage "HTTP/1.1 200 OK"
+2025-04-18 21:54:59,383 - INFO - Added job "time_up" to job store "default"
+2025-04-18 21:54:59,440 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/sendMessage "HTTP/1.1 200 OK"
+2025-04-18 21:55:00,705 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:55:00,706 - INFO - Removed job 4b846a7d81dd4effa76728161cae7f4c
+2025-04-18 21:55:00,894 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/sendMessage "HTTP/1.1 200 OK"
+2025-04-18 21:55:00,895 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\Telegramm_Quiz_bot\venv\Lib\site-packages\telegram\ext\_application.py", line 1298, in process_update
+    await coroutine
+  File "C:\Users\Admin\Desktop\Telegramm_Quiz_bot\venv\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\Telegramm_Quiz_bot\bot.py", line 224, in on_text
+    return await handle_answer(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\Telegramm_Quiz_bot\bot.py", line 204, in handle_answer
+    await send_question_by_chat(chat_id, context)
+  File "C:\Users\Admin\Desktop\Telegramm_Quiz_bot\bot.py", line 174, in send_question_by_chat
+    top = sorted(rating.items(), key=lambda x: x[1]['score'], reverse=True)[:5]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\Telegramm_Quiz_bot\bot.py", line 174, in <lambda>
+    top = sorted(rating.items(), key=lambda x: x[1]['score'], reverse=True)[:5]
+                                               ~~~~^^^^^^^^^
+TypeError: 'int' object is not subscriptable
+2025-04-18 21:55:10,733 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:55:20,755 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:55:30,780 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:55:40,806 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:55:50,831 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:56:00,853 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:56:10,883 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:56:20,909 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:56:30,931 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:56:40,959 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:56:50,983 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:57:01,009 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:57:11,036 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:57:21,070 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:57:31,094 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:57:41,120 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:57:51,145 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:58:01,170 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:58:09,987 - INFO - HTTP Request: POST https://api.telegram.org/bot8115515632:AAGa1v-VmKfdgHz2CIQVK2Hrg0GZvWd3hyQ/getUpdates "HTTP/1.1 200 OK"
+2025-04-18 21:58:09,988 - INFO - Application is stopping. This might take a moment.
+2025-04-18 21:58:09,988 - INFO - Scheduler has been shut down
+2025-04-18 21:58:09,988 - INFO - Application.stop() complete
