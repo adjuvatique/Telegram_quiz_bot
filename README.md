@@ -1,3 +1,6 @@
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](https://lv.linkedin.com/in/aleksandrs-b-69ba5135a)
+
+
 Telegram Quiz Bot
 
 Бот для Telegram, позволяющий проводить викторины по тестированию ПО (QA & DevOps).
